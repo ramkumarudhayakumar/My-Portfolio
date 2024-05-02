@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+    ">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  
+    <div class="hero">
+      
+     <nav>
+      <img src="images/logo.png" width="80px" height="80px" class="logo">
+       <ul id="nav-bar"  >
+        <li class="active" ><a href="#home">HOME</a></li>
+        <li ><a href="#about">ABOUT</a></li> 
+        <li ><a href="#resumae">RESUMAE</a></li>
+        <li ><a href="#project">PROJECTS</a></li>
+        <li ><a href="#hireme">HIRE ME</a></li>
+       </ul>
+       <div class="bar">
+        <div class="barline"></div>
+        <div class="barline"></div>
+        <div class="barline"></div>
+       </div>
+       <img src="images/moon.png" id="icon" class="iconic" >
+
+     </nav>
+     <div class="content content-active" id="home">
+      <div class="info">
+       <h1>I'm <span class="textanimation" ></span><br>Ramkumar</h1>
+        <p >This is my official porfolio website to showcase my all works related to web development </p>
+        <a href="images/pdfresumae.rk.pdf" download="resumae_of_rk" target="blank" >Download cv</a>
+
+      </div>
+
+      <div class="img-box">
+       <img src="images/pattern.png" class="back-img">
+        <img src="images/image.webp" class="main-img">
+
+      </div>
+    
+    <div class="social-links">
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/itz_.me_.beast/" target="blank"><i class="fab fa-instagram"></i></a>
+      
+    </div>
+  </div>
+  <div class="content" id="about">
+  <div id="about-details">
+    <h1 >Know Who I'M</h1>
+    <div id="school" >
+    <p>Hi Everyone, I am <span>Ramkumar U</span> from <span>Rameswaram, India</span>. <br><br>
+       I am currently looking for a Software Developer Role.<br><br>
+       I have completed B.E(MCT) at M.A.M School Of Engineering in Trichy.<br><br>
+      Apart from coding, some other activities that i love to do! </p><br>
+
+
+      <ul>
+        <li><i class="fa fa-plane"></i>Travelling</li>
+        <li><i class="fa fa-dumbbell"></i>Gyming</li>
+      </ul>
+      <br><br>
+
+      <h1 class="h1" >Professional Skillset</h1>
+      <div class="skillicon">
+        <a href="#"><i class="fab fa-html5"></i></a>
+        <a href="#"><i class="fab fa-css3-alt"></i></a>
+        <a href="#"><i class="fab fa-js"></i></a>
+        <a href="#"><i class="fab fa-react"></i></a>
+      </div>
+      
+       
+      </div>
+ 
+      
+      <div id="college" class="result1">
+        <h3>Schooling  Details</h3>
+        <p>I dis my Schooling at <span>HILF Matric Higher Secondary  School</span> in Rameswaram ant then I have Scored 93% in SSLC and 63.5% in HSC.
+        </p>
+          </div>
+          <button onclick="button1()" id="btn1">Click here to view my Schooling</button>
+          <button onclick="button2()" id="btn2" class="result1">Click here to go back</button>
+</div>
+
+</div>
+ 
+     <div class="content" id="resumae">
+       <div class="resume">
+       <img src="images/resumae.rk.png"></img>
+       <button class="download-pdf"><a href="images/pdfresumae.rk.pdf" download alt="my resumae" target="blank">DOWNLOAD PDF<i class="fa fa-download"></i>
+        </a></button>
+        <button class="download-img"><a href="images/resumae.rk.png" download alt="my resumae" target="blank">DOWNLOAD IMAGE<i class="fa fa-download"></i>
+        </a></button>
+      </div>
+
+
+
+
+     </div>
+     <div class="content" id="project">
+      <div class="my-projects">
+      <h1>My Recent <span >Works</span>Works</h1>
+      <p class="heading-project">Here are a few projects I've worked on recently.</p>
+      <div class="project-1">
+        <img src="images/Portfolio-project.jpg" alt="Porfolio Website">
+        <h3>Portfolio Website(html,css,Javascript)</h3>
+        <p>Create an engaging and interactive portfolio website using Html, Css & Javascript to showcase my skills, projects, an experiences effectively.<br> The portfolio will serve as a comprehensive representation of my expertise in frontend development,<br> with the aim of demonstrating creativity, technical proficiency, and a strong attention to detail.</p>
+        <button><i class="fab fa-github"></i><a href="https://github.com/ramkumarudhayakumar/My-Portfolio.git" target="_blank">GitHub</a></button> 
+    </div>
+      <div class="project-2">
+        <img src="images/React-project.jpg" alt="Porfolio Website">
+        <h3>Amazon Clone Project(React)</h3>
+        <p class="pp-2">Amazon Clone Project using React.js:then created Backend api using Node.js for this project with help some node js packages.<br>used Mango db database to store some Products details example: Name, Price, Stock, Images etc.. <br>Leveraged React components, Hooks, and Router for intuitive user interfaces and responsive design, ensuring accessibility across devices. Demonstrated expertise in React.js while prioritizing functionality</p>
+        <button><i class="fab fa-github"></i><a href="https://github.com/ramkumarudhayakumar/ecommerce-project.git" target="_blank">GitHub</a></button>
+      </div>
+     </div>
+    </div>
+
+</div>
+
+
+      
+  
+  
+  <script src="script.js">
+  
+  </script>
+           
+</body>
+</html>
